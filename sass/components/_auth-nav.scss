@@ -5,6 +5,12 @@
   @media screen and (max-width: 767px) {
     display: none;
   }
+
+  @media screen and (min-width: 1200 px) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 
 .auth-nav__item {

@@ -7,4 +7,10 @@
     align-items: center;
     justify-content: space-between;
   }
+
+  @media screen and (min-width: 1200 px) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
