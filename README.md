@@ -1,2 +1,2 @@
-# goit-markup-hw-08
-ДЗ 8. Адаптивная верстка и графика
+# goit-markup-hw-07
+ДЗ 7. BEM, SASS
