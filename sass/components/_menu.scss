@@ -1,0 +1,20 @@
+.page-header {
+  position: relative;
+}
+
+.menu__container {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: palegoldenrod;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  height: 796px;
+
+  &.is-open {
+    display: block;
+  }
+}

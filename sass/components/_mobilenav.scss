@@ -1,0 +1,35 @@
+.mobilenav {
+  display: flex;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.mobilenav__container {
+  width: 100%;
+  padding: 16px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mobilenav__button {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.mobilenav__button .mobilenav__icon-cross {
+  display: none;
+}
+
+.mobilenav__button.is-open .mobilenav__icon-cross {
+  display: block;
+}
+
+.mobilenav__button.is-open .mobilenav__icon-menu {
+  display: none;
+}
