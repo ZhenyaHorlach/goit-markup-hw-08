@@ -10,6 +10,11 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: $border-radius;
   padding: 40px;
+
+  @media screen and (max-width: 1199px) {
+    min-height: 609px;
+    min-width: 450px;
+  }
 }
 
 .modal__field {
@@ -51,6 +56,10 @@
   font-size: 14px;
   line-height: 1.7;
   transition: transform 250ms linear;
+
+  @media screen and (max-width: 1199px) {
+    font-size: 12px;
+  }
 }
 
 .modal__link {
@@ -58,4 +67,8 @@
   font-size: 14px;
   line-height: 1.7;
   margin-left: 3px;
+
+  @media screen and (max-width: 1199px) {
+    font-size: 12px;
+  }
 }

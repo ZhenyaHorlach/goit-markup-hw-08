@@ -47,6 +47,10 @@
 
 .page-hero__button-modal {
   margin-top: 30px;
+
+  @media screen and (max-width: 1199px) {
+    margin-top: 31px;
+  }
 }
 
 .subscribe__button {

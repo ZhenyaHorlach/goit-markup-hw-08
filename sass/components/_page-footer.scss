@@ -17,13 +17,31 @@
   }
 }
 
+.page-footer__tablet {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
+}
+
 .page-footer__logo {
   display: block;
-  // margin: 0 0 20px 0;
-  // padding: 0;
   text-decoration: none;
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 1199px) {
+    margin-bottom: 20px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    text-align: center;
+  }
+
+  @media screen and (min-width: 1200px) {
     margin-bottom: 20px;
   }
 }
@@ -35,10 +53,12 @@
   font-family: $logo-font;
 }
 
-// .page-footer__meta {
-//   display: flex;
-//   align-items: baseline;
-// }
+.page-footer__meta {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
 
 .page-footer__title {
   color: $second-accent-text-color;
@@ -63,32 +83,45 @@
   }
 }
 
-// .socials__item--footer:not(:last-child) {
-//   margin-right: 10px;
-// }
+.socials__item--footer:not(:last-child) {
+  @media screen and (min-width: 1200px) {
+    margin-right: 10px;
+  }
+}
 
 .page-footer__socials {
   list-style: none;
   cursor: pointer;
-  // padding: 0;
-  // margin: 0;
-  // margin-left: 70px;
 
   @media screen and (max-width: 767px) {
     margin-bottom: 60px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    text-align: center;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-left: 70px;
   }
 }
 
 .page-footer__subscribe {
   margin-left: auto;
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    text-align: center;
+  }
 }
 
-// .subscribe__meta {
-//   display: flex;
-// }
+.subscribe__meta {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
+}
 
 .subscribe__form {
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 1199px) {
     margin-bottom: 20px;
   }
 }
@@ -106,8 +139,14 @@
   // padding: 15px 16px;
   color: $second-accent-text-color;
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 1199px) {
     width: 450px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 358px;
+    margin-right: 12px;
+    padding: 15px 16px;
   }
 }
 
