@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body class="page">
-    <header class="container page-header">
+    <header class="page-header">
+        <div class="container">
         <nav class="nav__container">
             <a href="./index.html" class="nav__logo"><span class="nav__logoweb">Web</span><span class="nav__logostudio">Studio</span></a>
             <ul class="site-nav list">
@@ -66,9 +67,11 @@
             </nav>
 
         </div>
+        </div>
     </header>
         <main>
-        <section class="page-hero overlay container">
+        <section class="page-hero overlay">
+            <div class="container">
             <h1 class="page-hero__title">Эффективные решения<br> для вашего бизнеса</h1>
             <button type="button" class="page-hero__button" data-modal-open>Заказать услугу</button>
             <div class="backdrop is-hidden" data-modal>
@@ -124,9 +127,10 @@
                     </form>
                 </div>
             </div>
+            </div>
         </section>
-        <section class="benefits container">
-            <div class="benefits__container">
+        <section class="benefits">
+            <div class="container">
                 <h2 class="visually-hidden">Преимущества</h2>
                 <ul class="benefits__list">
                     <li class="benefits__item">
@@ -168,8 +172,8 @@
                 </ul>
             </div>
         </section>
-        <section class="section container">
-            <div class="product__section">
+        <section class="product__section">
+            <div class="container">
                 <h2 class="product__title">Чем мы занимаемся</h2>
                 <ul class="product__list">
                     <li class="product__item">
@@ -199,11 +203,12 @@
                 </ul>
             </div>
         </section>
-        <section class="team container">
+        <section class="team">
+            <div class="container">
             <h2 class="product__title">Наша команда</h2>
             <ul class="team__list">
                 <li class="team__item">
-                    <img src="./images/ihor-demyanenko.jpg" alt="ihor-demyanenko" width="270">
+                    <img class="team__foto" src="./images/ihor-demyanenko.jpg" alt="ihor-demyanenko">
                     <div class="team__info">
                         <div class="team__name"><h3 class="team__name-title">Игорь Демьяненко</h3></div>
                         <div class="team__profession"><p class="team__position">Product Designer</p></div>
@@ -240,7 +245,7 @@
                     </div>
                 </li>
                 <li class="team__item">
-                    <img src="./images/olha-repina.jpg" alt="olha-repina" width="270">
+                    <img class="team__foto" src="./images/olha-repina.jpg" alt="olha-repina">
                     <div class="team__info">
                         <div class="team__name"><h3 class="team__name-title">Ольга Репина</h3></div>
                         <div class="team__profession"><p class="team__position">Frontend Developer</p></div>
@@ -277,7 +282,7 @@
                     </div>
                 </li>
                 <li class="team__item">
-                    <img src="./images/nikolay-tarasov.jpg" alt="nikolay-tarasov" width="270">
+                    <img class="team__foto" src="./images/nikolay-tarasov.jpg" alt="nikolay-tarasov">
                     <div class="team__info">
                         <div class="team__name"><h3 class="team__name-title">Николай Тарасов</h3></div>
                         <div class="team__profession"><p class="team__position">Marketing</p></div>
@@ -314,7 +319,7 @@
                     </div>
                 </li>
                 <li class="team__item">
-                    <img src="./images/mihail-ermakov.jpg" alt="mihail-ermakov" width="270">
+                    <img class="team__foto" src="./images/mihail-ermakov.jpg" alt="mihail-ermakov">
                     <div class="team__info">
                         <div class="team__name"><h3 class="team__name-title">Михаил Ермаков</h3></div>
                         <div class="team__profession"><p class="team__position">UI Designer</p></div>
@@ -351,9 +356,10 @@
                     </div>
                 </li>
             </ul>
+            </div>
         </section>
-        <section class="clients container">
-            <div class="clients__meta">
+        <section class="clients">
+            <div class="container">
                 <h2 class="clients__title">Постоянные клиенты</h2>
                 <ul class="clients__list">
                     <li class="clients__item">
@@ -403,48 +409,52 @@
         </main>
     <footer class="page-footer">
         <div class="page-footer__meta container">
-            <div>
-            <a href="/" class="page-footer__logo"><span class="page-footer__logoweb">Web</span><span class="page-footer__logostudio">Studio</span></a>
-            <address class="page-footer__address">
-                <ul class="address__list">
-                    <li class="address__element"><a href="#" class="address__map">г. Киев, пр-т Леси Украинки, 26</a></li>
-                    <li class="address__element"><a href="mailto:info@example.com" class="address__email">info@example.com</a></li>
-                    <li class="address__element"><a href="tel:+380991111111" class="address__tel">+38 099 111 11 11</a></li>
-                </ul>
-            </address>
-            </div>
-            <div class="page-footer__socials">
-                <p class="page-footer__title">ПРИСОЕДИНЯЙТЕСЬ</p>
-                <ul class="socials__list">
-                    <li class="socials__item socials__item--footer">
-                        <a href="#" class="socials__link socials__link--footer">
-                            <svg class="socials__icon">
-                                <use href="./images/sprite.svg#icon-instagram"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="socials__item socials__item--footer">
-                        <a href="#" class="socials__link socials__link--footer">
-                            <svg class="socials__icon">
-                                <use href="./images/sprite.svg#icon-twitter"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="socials__item socials__item--footer">
-                        <a href="#" class="socials__link socials__link--footer">
-                            <svg class="socials__icon">
-                                <use href="./images/sprite.svg#icon-facebook"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="socials__item socials__item--footer">
-                        <a href="#" class="socials__link socials__link--footer">
-                            <svg class="socials__icon">
-                                <use href="./images/sprite.svg#icon-linkedin"></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
+            <div class="page-footer__tablet">
+                <div class="class="page-footer__info">
+                    <a href="/" class="page-footer__logo"><span class="page-footer__logoweb">Web</span><span
+                            class="page-footer__logostudio">Studio</span></a>
+                    <address class="page-footer__address">
+                        <ul class="address__list">
+                            <li class="address__element"><a href="#" class="address__map">г. Киев, пр-т Леси Украинки, 26</a></li>
+                            <li class="address__element"><a href="mailto:info@example.com" class="address__email">info@example.com</a>
+                            </li>
+                            <li class="address__element"><a href="tel:+380991111111" class="address__tel">+38 099 111 11 11</a></li>
+                        </ul>
+                    </address>
+                </div>
+                <div class="page-footer__socials">
+                    <p class="page-footer__title">ПРИСОЕДИНЯЙТЕСЬ</p>
+                    <ul class="socials__list">
+                        <li class="socials__item socials__item--footer">
+                            <a href="#" class="socials__link socials__link--footer">
+                                <svg class="socials__icon">
+                                    <use href="./images/sprite.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="socials__item socials__item--footer">
+                            <a href="#" class="socials__link socials__link--footer">
+                                <svg class="socials__icon">
+                                    <use href="./images/sprite.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="socials__item socials__item--footer">
+                            <a href="#" class="socials__link socials__link--footer">
+                                <svg class="socials__icon">
+                                    <use href="./images/sprite.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="socials__item socials__item--footer">
+                            <a href="#" class="socials__link socials__link--footer">
+                                <svg class="socials__icon">
+                                    <use href="./images/sprite.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="page-footer__subscribe">
                 <p class="page-footer__title">Подпишитесь на рассылку</p>
