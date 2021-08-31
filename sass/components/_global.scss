@@ -15,6 +15,10 @@ body {
   font-family: $main-font;
 }
 
+body.modal-open {
+  overflow: hidden;
+}
+
 .container {
   // width: 1200px;
   padding-right: 15px;

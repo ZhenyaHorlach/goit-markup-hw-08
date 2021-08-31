@@ -6,6 +6,11 @@
   @media screen and (max-width: 767px) {
     padding: 0;
   }
+
+  @media screen and (min-width: 768px) {
+    margin: 0;
+    padding: 26px 88px 26px 0;
+  }
 }
 
 .nav__logoweb {
