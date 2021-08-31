@@ -534,11 +534,15 @@ a {
   }
 }
 
-@media screen and (min-width: 1200 px) {
+.auth-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .auth-nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: block;
   }
 }
 
@@ -602,6 +606,12 @@ a {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .auth-nav__item:not(:first-child) {
+    margin-left: 50px;
+  }
+}
+
 .auth-nav__link,
 .auth-nav__tel {
   display: -webkit-box;
@@ -629,6 +639,7 @@ a {
   .auth-nav__link,
   .auth-nav__tel {
     display: block;
+    padding: 32px 0;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
