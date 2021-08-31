@@ -1,8 +1,4 @@
 .auth-nav {
-  // @media screen and (max-width: 767px) {
-  //   display: none;
-  // }
-
   @media screen and (min-width: 1200 px) {
     display: flex;
   }
@@ -19,7 +15,8 @@
   }
 
   @media screen and (min-width: 1200px) {
-    margin: 0;
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -38,6 +35,9 @@
   @media screen and (min-width: 1200px) {
     padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -56,6 +56,10 @@
   &:hover,
   &:focus {
     color: $accent-text-color;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: block;
   }
 }
 

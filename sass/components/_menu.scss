@@ -6,13 +6,6 @@
   background-color: $primary-bg-color;
   padding: 20px;
   font-size: 20px;
-  // height: 796px;
-
-  &.is-open {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap-reverse;
-  }
 
   @media screen and (max-width: 767px) {
     display: none;
@@ -22,11 +15,16 @@
     width: 100%;
     padding: 40px 48px;
     height: 796px;
+
+    &.is-open {
+      display: block;
+    }
   }
 
   @media screen and (min-width: 768px) {
     display: flex;
-    padding: 0;
-    margin: 32px 0;
+    flex-grow: 1;
+    justify-content: space-between;
+    margin: 0;
   }
 }
