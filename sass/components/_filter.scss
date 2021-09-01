@@ -1,11 +1,15 @@
 .filter {
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
   align-content: flex-start;
   margin: 0;
   padding: 0;
   margin-bottom: 50px;
+
+  @media screen and (max-width: 767px) {
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
 
   @media screen and (max-width: 1199px) {
     margin-bottom: 30px;
@@ -21,6 +25,8 @@
 
   &:not(:last-child) {
     margin-right: 8px;
+
+    margin-bottom: 16px;
   }
 
   &:hover,
