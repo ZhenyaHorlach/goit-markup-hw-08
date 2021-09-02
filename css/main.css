@@ -2318,6 +2318,10 @@ a {
   outline: none;
 }
 
+.menu-toggle:hover, .menu-toggle:focus {
+  color: #2196f3;
+}
+
 @media screen and (min-width: 768px) {
   .navsocials {
     display: none;
