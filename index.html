@@ -110,7 +110,7 @@
             </div>
         </div>
     </header>
-        <main>
+    <main>
         <section class="page-hero overlay">
             <div class="container">
             <h1 class="page-hero__title">Эффективные решения<br> для вашего бизнеса</h1>
@@ -219,7 +219,12 @@
                 <ul class="product__list">
                     <li class="product__item">
                         <div class="product__image">
-                            <img src="./images/img1.jpg" alt="Мужчина пишет код" width="370">
+                            <img srcset="
+                            ./images/img1.jpg 1x, 
+                            ./images/img1r.jpg 2x"
+                            src="./images/img1.jpg" 
+                            alt="Мужчина пишет код" 
+                            width="100%">
                             <div class="product__meta">
                                 <p class="product__name">ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</p>
                             </div>
@@ -227,7 +232,12 @@
                     </li>
                     <li class="product__item">
                         <div class="product__image">
-                            <img src="./images/img2.jpg" alt="На ноутбуке программируется программа для телефонов" width="370">
+                            <img srcset="
+                            ./images/img2.jpg 1x, 
+                            ./images/img2r.jpg 2x" 
+                            src="./images/img2.jpg" 
+                            alt="На ноутбуке программируется программа для телефонов" 
+                            width="100%">
                             <div class="product__meta">
                                 <p class="product__name">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</p>
                             </div>
@@ -235,7 +245,12 @@
                     </li>
                     <li class="product__item">
                         <div class="product__image">
-                            <img src="./images/img3.jpg" alt="Дизайнер подбирает цветовую палитру" width="370">
+                            <img srcset="
+                            ./images/img3.jpg 1x, 
+                            ./images/img3r.jpg 2x"
+                            src="./images/img3.jpg" 
+                            alt="Дизайнер подбирает цветовую палитру" 
+                            width="100%">
                             <div class="product__meta">
                                 <p class="product__name">ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</p>
                             </div>
@@ -447,7 +462,8 @@
                     </li>
                 </ul>
             </div>
-        </main>
+        </section>
+    </main>
     <footer class="page-footer">
         <div class="page-footer__meta container">
             <div class="page-footer__tablet">
