@@ -935,7 +935,7 @@ a {
 @media screen and (max-width: 767px) {
   .modal {
     min-height: 609px;
-    min-width: 450px;
+    width: 100%;
   }
 }
 
@@ -1105,17 +1105,11 @@ a {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
-  width: 370px;
+  width: 100%;
   border: 1px solid rgba(33, 33, 33, 0.2);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 4px;
-}
-
-@media screen and (min-width: 1200px) {
-  .inputs__placeholder {
-    width: 448px;
-  }
 }
 
 .inputs__form:focus-within > .inputs__placeholder {
